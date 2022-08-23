@@ -1,0 +1,21 @@
+{
+    "name": "atividade-3",
+    "short_name": "QC",
+    "icons":[
+        {
+        "src":"./img/256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+       }, 
+       {
+        "src":"./img/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }       
+],
+"lang":"pt-br",
+"start_url":"/index.html",
+"display": "standalone",
+"background-color": "white",
+"theme_color": "white"
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="white">
+    <title>Contador de moedas</title>
+</head>
+<body class="fullscreen">
+    <div class="container">
+     <h1 class="title">Quanto Custa?</h1>
+     <input type="text" id="cDolar" placeholder="Digite a cotação do dolar">
+     <input type="text" id="cGuarani" placeholder="Digite a cotação do guarani">
+     <select id="moeda">
+         <option value="dolar" selected>Dolar (U$)</option>
+         <option value="guarani" selected>Guarani (G)</option>
+     </select>
+     <input type="text" id="preco" placeholder="Digite o preço do produto">
+     <button class="button" onclick="calculaPrecoReal()">Calcular Valor</button>
+     <button class="button" onclick="limparCampos()">Limpar Campus</button>
+     <p id="resultado"></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
